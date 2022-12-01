@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application xmlns="http://www.zeroturnaround.com">
+  <classpath>
+    <dir name="/home/prosigmaka/Documents/DemoGrupSatu/hybris/bin/custom/demogrupsatu/demogrupsatubackoffice/backoffice/classes" />
+  </classpath>
+</application>
