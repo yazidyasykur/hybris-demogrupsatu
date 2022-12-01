@@ -4,6 +4,7 @@
 # 
 # Import the Product Catalog and Classification Catalog
 #
+# TEST PUSH
 
 $productCatalog=demoProductCatalog
 $classificationCatalog=demoClassificationCatalog
