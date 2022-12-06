@@ -1,7 +1,7 @@
 /*
  * ----------------------------------------------------------------
  * --- WARNING: THIS FILE IS GENERATED AND WILL BE OVERWRITTEN! ---
- * --- Generated at Dec 1, 2022, 11:06:27 AM                    ---
+ * --- Generated at Dec 5, 2022, 1:17:03 PM                     ---
  * ----------------------------------------------------------------
  */
 package org.demogrupsatu.fulfilmentprocess.constants;
