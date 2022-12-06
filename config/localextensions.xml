@@ -25,12 +25,12 @@
 		<extension name="cmsbackoffice"/>
 		<extension name="cmsoccaddon"/>
 
-		<extension dir="/home/prosigmaka/Documents/DemoGrupSatu/hybris/bin/custom/demogrupsatu/demogrupsatucore"/>
- 		<extension dir="/home/prosigmaka/Documents/DemoGrupSatu/hybris/bin/custom/demogrupsatu/demogrupsatubackoffice"/>
- 		<extension dir="/home/prosigmaka/Documents/DemoGrupSatu/hybris/bin/custom/demogrupsatu/demogrupsatufacades"/>
- 		<extension dir="/home/prosigmaka/Documents/DemoGrupSatu/hybris/bin/custom/demogrupsatu/demogrupsatufulfilmentprocess"/>
-		<extension dir="/home/prosigmaka/Documents/DemoGrupSatu/hybris/bin/custom/demogrupsatu/demogrupsatuinitialdata"/>
-		<extension dir="/home/prosigmaka/Documents/DemoGrupSatu/hybris/bin/custom/demogrupsatu/demogrupsatustorefront"/>
+		<extension name="demogrupsatucore"/>
+ 		<extension name="demogrupsatubackoffice"/>
+ 		<extension name="demogrupsatufacades"/>
+ 		<extension name="demogrupsatufulfilmentprocess"/>
+		<extension name="demogrupsatuinitialdata"/>
+		<extension name="demogrupsatustorefront"/>
 
   </extensions>
 </hybrisconfig>
