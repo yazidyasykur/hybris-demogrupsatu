@@ -1,7 +1,7 @@
 /*
  * ----------------------------------------------------------------
  * --- WARNING: THIS FILE IS GENERATED AND WILL BE OVERWRITTEN! ---
- * --- Generated at Dec 1, 2022, 11:06:27 AM                    ---
+ * --- Generated at Dec 5, 2022, 3:23:32 PM                     ---
  * ----------------------------------------------------------------
  */
 package org.demogrupsatu.core.jalo;

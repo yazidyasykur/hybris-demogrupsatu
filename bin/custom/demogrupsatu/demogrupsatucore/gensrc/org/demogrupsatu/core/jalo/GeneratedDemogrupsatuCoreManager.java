@@ -1,7 +1,7 @@
 /*
  * ----------------------------------------------------------------
  * --- WARNING: THIS FILE IS GENERATED AND WILL BE OVERWRITTEN! ---
- * --- Generated at Dec 1, 2022, 11:06:27 AM                    ---
+ * --- Generated at Dec 5, 2022, 3:23:32 PM                     ---
  * ----------------------------------------------------------------
  */
 package org.demogrupsatu.core.jalo;
@@ -21,6 +21,9 @@ import org.demogrupsatu.core.jalo.ApparelProduct;
 import org.demogrupsatu.core.jalo.ApparelSizeVariantProduct;
 import org.demogrupsatu.core.jalo.ApparelStyleVariantProduct;
 import org.demogrupsatu.core.jalo.ElectronicsColorVariantProduct;
+import org.demogrupsatu.core.jalo.IntheboxProduct;
+import org.demogrupsatu.core.jalo.IntheboxSizeVariantProduct;
+import org.demogrupsatu.core.jalo.Size;
 
 /**
  * Generated class for type <code>DemogrupsatuCoreManager</code>.
@@ -148,6 +151,84 @@ public abstract class GeneratedDemogrupsatuCoreManager extends Extension
 	public ElectronicsColorVariantProduct createElectronicsColorVariantProduct(final Map attributeValues)
 	{
 		return createElectronicsColorVariantProduct( getSession().getSessionContext(), attributeValues );
+	}
+	
+	public IntheboxProduct createIntheboxProduct(final SessionContext ctx, final Map attributeValues)
+	{
+		try
+		{
+			ComposedType type = getTenant().getJaloConnection().getTypeManager().getComposedType( DemogrupsatuCoreConstants.TC.INTHEBOXPRODUCT );
+			return (IntheboxProduct)type.newInstance( ctx, attributeValues );
+		}
+		catch( JaloGenericCreationException e)
+		{
+			final Throwable cause = e.getCause();
+			throw (cause instanceof RuntimeException ?
+			(RuntimeException)cause
+			:
+			new JaloSystemException( cause, cause.getMessage(), e.getErrorCode() ) );
+		}
+		catch( JaloBusinessException e )
+		{
+			throw new JaloSystemException( e ,"error creating IntheboxProduct : "+e.getMessage(), 0 );
+		}
+	}
+	
+	public IntheboxProduct createIntheboxProduct(final Map attributeValues)
+	{
+		return createIntheboxProduct( getSession().getSessionContext(), attributeValues );
+	}
+	
+	public IntheboxSizeVariantProduct createIntheboxSizeVariantProduct(final SessionContext ctx, final Map attributeValues)
+	{
+		try
+		{
+			ComposedType type = getTenant().getJaloConnection().getTypeManager().getComposedType( DemogrupsatuCoreConstants.TC.INTHEBOXSIZEVARIANTPRODUCT );
+			return (IntheboxSizeVariantProduct)type.newInstance( ctx, attributeValues );
+		}
+		catch( JaloGenericCreationException e)
+		{
+			final Throwable cause = e.getCause();
+			throw (cause instanceof RuntimeException ?
+			(RuntimeException)cause
+			:
+			new JaloSystemException( cause, cause.getMessage(), e.getErrorCode() ) );
+		}
+		catch( JaloBusinessException e )
+		{
+			throw new JaloSystemException( e ,"error creating IntheboxSizeVariantProduct : "+e.getMessage(), 0 );
+		}
+	}
+	
+	public IntheboxSizeVariantProduct createIntheboxSizeVariantProduct(final Map attributeValues)
+	{
+		return createIntheboxSizeVariantProduct( getSession().getSessionContext(), attributeValues );
+	}
+	
+	public Size createSize(final SessionContext ctx, final Map attributeValues)
+	{
+		try
+		{
+			ComposedType type = getTenant().getJaloConnection().getTypeManager().getComposedType( DemogrupsatuCoreConstants.TC.SIZE );
+			return (Size)type.newInstance( ctx, attributeValues );
+		}
+		catch( JaloGenericCreationException e)
+		{
+			final Throwable cause = e.getCause();
+			throw (cause instanceof RuntimeException ?
+			(RuntimeException)cause
+			:
+			new JaloSystemException( cause, cause.getMessage(), e.getErrorCode() ) );
+		}
+		catch( JaloBusinessException e )
+		{
+			throw new JaloSystemException( e ,"error creating Size : "+e.getMessage(), 0 );
+		}
+	}
+	
+	public Size createSize(final Map attributeValues)
+	{
+		return createSize( getSession().getSessionContext(), attributeValues );
 	}
 	
 	@Override

@@ -1,7 +1,7 @@
 /*
  * ----------------------------------------------------------------
  * --- WARNING: THIS FILE IS GENERATED AND WILL BE OVERWRITTEN! ---
- * --- Generated at Dec 1, 2022, 11:06:27 AM                    ---
+ * --- Generated at Dec 5, 2022, 3:23:32 PM                     ---
  * ----------------------------------------------------------------
  */
 package org.demogrupsatu.core.constants;
@@ -20,6 +20,9 @@ public class GeneratedDemogrupsatuCoreConstants
 		public static final String APPARELSIZEVARIANTPRODUCT = "ApparelSizeVariantProduct".intern();
 		public static final String APPARELSTYLEVARIANTPRODUCT = "ApparelStyleVariantProduct".intern();
 		public static final String ELECTRONICSCOLORVARIANTPRODUCT = "ElectronicsColorVariantProduct".intern();
+		public static final String INTHEBOXPRODUCT = "IntheboxProduct".intern();
+		public static final String INTHEBOXSIZEVARIANTPRODUCT = "IntheboxSizeVariantProduct".intern();
+		public static final String SIZE = "Size".intern();
 		public static final String SWATCHCOLORENUM = "SwatchColorEnum".intern();
 	}
 	public static class Attributes
